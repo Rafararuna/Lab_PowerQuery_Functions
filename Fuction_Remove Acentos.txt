@@ -1,0 +1,36 @@
+let
+    RemoverAcentosEspeciais = (inputText as text) as text =>
+        let
+            Step1 = Text.Replace(inputText, "á", "a"),
+            Step2 = Text.Replace(Step1, "Á", "A"),
+            Step3 = Text.Replace(Step2, "à", "a"),
+            Step4 = Text.Replace(Step3, "À", "A"),
+            Step5 = Text.Replace(Step4, "ã", "a"),
+            Step6 = Text.Replace(Step5, "Ã", "A"),
+            Step7 = Text.Replace(Step6, "â", "a"),
+            Step8 = Text.Replace(Step7, "Â", "A"),
+            Step9 = Text.Replace(Step8, "é", "e"),
+            Step10 = Text.Replace(Step9, "É", "E"),
+            Step11 = Text.Replace(Step10, "ê", "e"),
+            Step12 = Text.Replace(Step11, "Ê", "E"),
+            Step13 = Text.Replace(Step12, "í", "i"),
+            Step14 = Text.Replace(Step13, "Í", "I"),
+            Step15 = Text.Replace(Step14, "ó", "o"),
+            Step16 = Text.Replace(Step15, "Ó", "O"),
+            Step17 = Text.Replace(Step16, "õ", "o"),
+            Step18 = Text.Replace(Step17, "Õ", "O"),
+            Step19 = Text.Replace(Step18, "ô", "o"),
+            Step20 = Text.Replace(Step19, "Ô", "O"),
+            Step21 = Text.Replace(Step20, "ú", "u"),
+            Step22 = Text.Replace(Step21, "Ú", "U"),
+            Step23 = Text.Replace(Step22, "ü", "u"),
+            Step24 = Text.Replace(Step23, "Ü", "U"),
+            Step25 = Text.Replace(Step24, "ç", "c"),
+            Step26 = Text.Replace(Step25, "Ç", "C"),
+            Step27 = Text.Replace(Step26, "ñ", "n"),
+            Step28 = Text.Replace(Step27, "Ñ", "N"),
+            FinalStep = Step28
+        in
+            FinalStep
+in
+    RemoverAcentosEspeciais
