@@ -507,7 +507,7 @@ let
                 if Text.Contains(referencia, "DTPA") then "DTPA" else
                 if Text.Contains(referencia, "DULAGLUTIDA") then "DULAGLUTIDA" else
                 if Text.Contains(referencia, "DULOXETINA") then "DULOXETINA" else
-                if Text.Contains(referencia, "DUPILUMABE") or Text.Contains(referencia, "DUPILIMABE") then "DUPILUMABE" else
+                if Text.Contains(referencia, "DUPILUMABE") or Text.Contains(referencia, "DUPIXENT") or Text.Contains(referencia, "DUPILUMAB") or Text.Contains(referencia, "DUPILIMABE") then "DUPILUMABE" else
                 if Text.Contains(referencia, "DURVALUMABE") then "DURVALUMABE" else
                 if Text.Contains(referencia, "DUTASTERIDA") then "DUTASTERIDA"
 
