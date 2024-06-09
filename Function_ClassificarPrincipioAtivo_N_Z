@@ -259,7 +259,7 @@ let
                 if Text.Contains(referencia, "RINGER") then "RINGER" else
                 if Text.Contains(referencia, "RIOCIGUATE") or Text.Contains(referencia, "RIOCIGUAT") then "RIOCIGUATE" else
                 if Text.Contains(referencia, "RISANQUIZUMABE") then "RISANQUIZUMABE" else
-                if Text.Contains(referencia, "RISDIPLAM") then "RISDIPLAM" else
+                if Text.Contains(referencia, "RISDIPLAM") or Text.Contains(referencia, "ELEVIDYS") then "RISDIPLAM" else
                 if Text.Contains(referencia, "RISEDRONATO SODICO") then "RISEDRONATO SODICO" else
                 if Text.Contains(referencia, "RISPERIDONA") then "RISPERIDONA" else
                 if Text.Contains(referencia, "RITONAVIR") then "RITONAVIR" else
