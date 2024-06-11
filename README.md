@@ -3,5 +3,5 @@ Este repositório tem como objetivo armazenar lógicas de funções em Power Que
 
 ### Passo a Passo para Criar a Função
 
-Abra o Editor de Consultas no Excel ou no Power BI.
-Crie uma nova consulta em branco ou vá diretamente para a consulta onde deseja aplicar a função.
+1. Abra o Editor de Consultas no Excel ou no Power BI.
+2 .Crie uma nova consulta em branco ou vá diretamente para a consulta onde deseja aplicar a função.
