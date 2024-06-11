@@ -1,0 +1,9 @@
+let
+    RemoverNumeros = (inputText as text) as text =>
+        let
+            // Seleciona apenas os caracteres que não são dígitos
+            CleanText = Text.Select(inputText, {"a".."z", "A".."Z", " "}) // Inclui espaços, adicione mais caracteres se necessário
+        in
+            CleanText
+in
+    RemoverNumeros
