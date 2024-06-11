@@ -6,3 +6,8 @@ Este repositório tem como objetivo armazenar lógicas de funções em Power Que
 1. Abra o Editor de Consultas no Excel ou no Power BI.
 
 2 .Crie uma nova consulta em branco ou vá diretamente para a consulta onde deseja aplicar a função.
+
+3.Adicionar uma Coluna Personalizada:
+.. Vá para "Adicionar Coluna" no menu do Power Query.
+.. Selecione "Coluna Personalizada".
+.. No editor da nova coluna, utilize a função RemoverNumeros da seguinte maneira:
