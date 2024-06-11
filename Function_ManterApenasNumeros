@@ -1,0 +1,9 @@
+let
+    ManterApenasNumeros = (inputText as text) as text =>
+        let
+            // Seleciona apenas caracteres numéricos
+            Result = Text.Select(inputText, {"0".."9"})
+        in
+            Result
+in
+    ManterApenasNumeros
