@@ -391,6 +391,7 @@ let
                 if Text.Contains(referencia, "LURASIDONA") then "LURASIDONA" else
                 if Text.Contains(referencia, "LUSPATERCEPTE") or Text.Contains(referencia, "LUSPATERCEPT") or Text.Contains(referencia, "REBLOZYL") then "LUSPATERCEPTE" else
                 if Text.Contains(referencia, "LUTECIO") and Text.Contains(referencia, "177") and Text.Contains(referencia, "PSMA") then "LUTECIO 177 PSMA" else
+                if Text.Contains(referencia, "LUTEINA") or Text.Contains(referencia, "LUTINA") then "LUTEINA" else
                 if Text.Contains(referencia, "MACITENTANO") then "MACITENTANO" else
                 if Text.Contains(referencia, "MACROGOL") or Text.Contains(referencia, "MUVINLAX") then "MACROGOL" else
                 if Text.Contains(referencia, "MAGALDRATO") then "MAGALDRATO" else
