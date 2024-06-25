@@ -57,7 +57,7 @@ let
                 if Text.Contains(referencia, "ACIDO TRICLOROACETICO (TCA)") then "ACIDO TRICLOROACETICO (TCA)" else
                 if Text.Contains(referencia, "ACIDO URSODESOXICOLICO") then "ACIDO URSODESOXICOLICO" else
                 if Text.Contains(referencia, "ACIDO VALPROICO") or Text.Contains(referencia, "DEPAKENE") then "ACIDO VALPROICO" else
-                if Text.Contains(referencia, "ACIDO ZOLEDRONICO") then "ACIDO ZOLEDRONICO" else
+                if Text.Contains(referencia, "ACIDO ZOLEDRONICO") or Text.Contains(referencia, "ZELODRONICO") then "ACIDO ZOLEDRONICO" else
                 if Text.Contains(referencia, "ACITRETINA") then "ACITRETINA" else
                 if Text.Contains(referencia, "ADALIMUMABE") then "ADALIMUMABE" else
                 if Text.Contains(referencia, "ADAPALENO") then "ADAPALENO" else
@@ -355,7 +355,7 @@ let
                 if Text.Contains(referencia, "CITARABINA") then "CITARABINA" else
                 if Text.Contains(referencia, "CITICOLINA") then "CITICOLINA" else
                 if Text.Contains(referencia, "CITIDINA") then "CITIDINA" else
-                if Text.Contains(referencia, "CITRATO DE CALCIO") then "CITRATO DE CALCIO" else
+                if Text.Contains(referencia, "CITRATO DE CALCIO") or Text.Contains(referencia, "MALATO") and  Text.Contains(referencia, "CALCIO") and  Text.Contains(referencia, "CITRATO") then "CITRATO DE CALCIO" else
                 if Text.Contains(referencia, "CITRATO DE MAGNESIO") then "CITRATO DE MAGNESIO" else
                 if Text.Contains(referencia, "CITRATO DE POTASSIO") then "CITRATO DE POTASSIO" else
                 if Text.Contains(referencia, "CITRATO DE SODIO") then "CITRATO DE SODIO" else
