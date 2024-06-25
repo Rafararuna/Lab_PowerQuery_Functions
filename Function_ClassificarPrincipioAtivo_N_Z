@@ -524,6 +524,7 @@ let
                 if Text.Contains(referencia, "ZANAMIVIR") then "ZANAMIVIR" else
                 if Text.Contains(referencia, "ZANIBRUTINIBE") then "ZANIBRUTINIBE" else
                 if Text.Contains(referencia, "ZANUBRUTINIBE") then "ZANUBRUTINIBE" else
+                if Text.Contains(referencia, "ZEAXANTINA") then "ZEAXANTINA" else
                 if Text.Contains(referencia, "ZIDOVUDINA") then "ZIDOVUDINA" else
                 if Text.Contains(referencia, "ZINCO") then "ZINCO" else
                 if Text.Contains(referencia, "ZIPRASIDONA") then "ZIPRASIDONA" else
