@@ -1,0 +1,10 @@
+// Esse função tem como objetivo remover os caracteres especiais
+let
+    RemoveCaracteresEspeciais = (inputText as text) as text =>
+    let
+        charsToRemove = {"#", "%", "&", "{", "}", "\", "<", ">", "*", "?", "/", "+", "-", "!", "$", "'", "`", ":", "@", "=", ";"}, 
+        cleanedText = List.Accumulate(charsToRemove, inputText, (state, current) => Text.Replace(state, current, ""))
+    in
+        cleanedText
+in
+    RemoveCaracteresEspeciais
