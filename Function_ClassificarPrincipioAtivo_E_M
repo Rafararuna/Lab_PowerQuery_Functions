@@ -17,7 +17,7 @@ let
                 if Text.Contains(referencia, "ELIXIR PAREGORICO") then "ELIXIR PAREGORICO" else
                 if Text.Contains(referencia, "ELOSULFASE ALFA") or Text.Contains(referencia, "ELOSULFASE") then "ELOSULFASE ALFA" else
                 if Text.Contains(referencia, "ELOTUZUMABE") then "ELOTUZUMABE" else
-                if Text.Contains(referencia, "ELTROBOPAG") or Text.Contains(referencia, "ELTROMBOPAG OLAMINA") or Text.Contains(referencia, "ELTROMBO") then "ELTROMBOPAG" else
+                if Text.Contains(referencia, "ELTROBOPAG") or Text.Contains(referencia, "ELTROMBOPAG OLAMINA") or Text.Contains(referencia, "ELTROMBO") or Text.Contains(referencia, "REVOLADE") then "ELTROMBOPAG" else
                 if Text.Contains(referencia, "EMBUCRILATO") then "EMBUCRILATO" else
                 if Text.Contains(referencia, "EMICIZUMABE") then "EMICIZUMABE" else
                 if Text.Contains(referencia, "EMPAGLIFLOZINA") or Text.Contains(referencia, "JARDIANSE") or Text.Contains(referencia, "JARDIANCE") or Text.Contains(referencia, "EMPAGLIFOZINA") then "EMPAGLIFLOZINA" else
@@ -88,7 +88,7 @@ let
                 if Text.Contains(referencia, "ETORICOXIBE") then "ETORICOXIBE" else
                 if Text.Contains(referencia, "ETOSSUXIMIDA") or Text.Contains(referencia, "ETHOSUXIMIDA") then "ETOSSUXIMIDA" else
                 if Text.Contains(referencia, "ETRAVIRINA") then "ETRAVIRINA" else
-                if Text.Contains(referencia, "EVEROLIMO") then "EVEROLIMO" else
+                if Text.Contains(referencia, "EVEROLIMO") or Text.Contains(referencia, "AFFINITOR") then "EVEROLIMO" else
                 if Text.Contains(referencia, "EVOGLIPTINA") then "EVOGLIPTINA" else
                 if Text.Contains(referencia, "EVOLOCUMABE") or Text.Contains(referencia, "REPATHA") then "EVOLOCUMABE" else
                 if Text.Contains(referencia, "EXEMESTANO") then "EXEMESTANO" else
@@ -179,7 +179,7 @@ let
                 if Text.Contains(referencia, "GALANTAMINA") then "GALANTAMINA" else
                 if Text.Contains(referencia, "GALCANEZUMABE") then "GALCANEZUMABE" else
                 if Text.Contains(referencia, "GALSULFASE") then "GALSULFASE" else
-                if Text.Contains(referencia, "GANCICLOVIR SODICO") then "GANCICLOVIR SODICO" else
+                if Text.Contains(referencia, "GANCICLOVIR SODICO")  or Text.Contains(referencia, "GANCICLOVIR") then "GANCICLOVIR SODICO" else
                 if Text.Contains(referencia, "GANIRRELIX") then "GANIRRELIX" else
                 if Text.Contains(referencia, "GATIFLOXACINO") then "GATIFLOXACINO" else
                 if Text.Contains(referencia, "GEFITINIBE") then "GEFITINIBE" else
@@ -286,7 +286,7 @@ let
                 if Text.Contains(referencia, "INOTERSENA") or Text.Contains(referencia, "INOTERSEN") or Text.Contains(referencia, "TEGSEDI") then "INOTERSENA" else
                 if Text.Contains(referencia, "INOTUZUMABE") then "INOTUZUMABE" else
                 if Text.Contains(referencia, "INOTUZUMABE OZOGAMICINA") or Text.Contains(referencia, "INOTUZUMAB") then "INOTUZUMABE OZOGAMICINA" else
-                if Text.Contains(referencia, "INSULINA") then "INSULINA" else
+                if Text.Contains(referencia, "INSULINA") or Text.Contains(referencia, "INSULINA GLARGINA") or Text.Contains(referencia, "INSULINA FLARGINA") or Text.Contains(referencia, "INSULINA GLULISINA") or Text.Contains(referencia, "LANTUS") then "INSULINA" else
                 if Text.Contains(referencia, "INTERFERONA") or Text.Contains(referencia, "INTERFERON") then "INTERFERONA" else
                 if Text.Contains(referencia, "IODENAFILA CARBONATO") then "IODENAFILA CARBONATO" else
                 if Text.Contains(referencia, "IODETO DE POTASSIO") then "IODETO DE POTASSIO" else
@@ -294,6 +294,7 @@ let
                 if Text.Contains(referencia, "IODOFORMIO") then "IODOFORMIO" else
                 if Text.Contains(referencia, "IODOPOVIDONA (PVPI)") then "IODOPOVIDONA (PVPI)" else
                 if Text.Contains(referencia, "IOIMBINA") then "IOIMBINA" else
+                if Text.Contains(referencia, "IONOFORO") then "IONOFORO" else
                 if Text.Contains(referencia, "IPILIMUMABE") then "IPILIMUMABE" else
                 if Text.Contains(referencia, "IPRATROPIO BROMETO") then "IPRATROPIO BROMETO" else
                 if Text.Contains(referencia, "IRBESARTANA") then "IRBESARTANA" else
@@ -317,6 +318,7 @@ let
                 if Text.Contains(referencia, "IXEQUIZUMABE") then "IXEQUIZUMABE" else
                 if Text.Contains(referencia, "KETOSTERIL") then "KETOSTERIL" else
                 if Text.Contains(referencia, "L-METILFOLATO") then "L-METILFOLATO" else
+                if Text.Contains(referencia, "L-SERINA") or Text.Contains(referencia, "L-SORINA") then "L-SERINA" else
                 if Text.Contains(referencia, "LACIDIPINO") then "LACIDIPINO" else
                 if Text.Contains(referencia, "LACOSAMIDA") then "LACOSAMIDA" else
                 if Text.Contains(referencia, "LACTATO DE AMONIO") then "LACTATO DE AMONIO" else
@@ -333,16 +335,16 @@ let
                 if Text.Contains(referencia, "LAPATINIBE") then "LAPATINIBE" else
                 if Text.Contains(referencia, "LARONIDASE") then "LARONIDASE" else
                 if Text.Contains(referencia, "LAROTRECTINIBE") or Text.Contains(referencia, "LAROCTRECTINIBE") then "LAROTRECTINIBE" else
-                if Text.Contains(referencia, "LATANOPROSTA") then "LATANOPROSTA" else
+                if Text.Contains(referencia, "LATANOPROSTA") or Text.Contains(referencia, "VYZULTA") then "LATANOPROSTA" else
                 if Text.Contains(referencia, "LECANEMABE") or Text.Contains(referencia, "LECANEMAB") or Text.Contains(referencia, "LEQEMBI") then "LEFLUNOMIDA" else
                 if Text.Contains(referencia, "LEFLUNOMIDA") then "LEFLUNOMIDA" else
-                if Text.Contains(referencia, "LENALIDOMIDA") then "LENALIDOMIDA" else
+                if Text.Contains(referencia, "LENALIDOMIDA") or Text.Contains(referencia, "LENALIDOMINA") then "LENALIDOMIDA" else
                 if Text.Contains(referencia, "LENOGRASTIM") then "LENOGRASTIM" else
                 if Text.Contains(referencia, "LENVATINIBE") then "LENVATINIBE" else
                 if Text.Contains(referencia, "LERCANIDIPINO") then "LERCANIDIPINO" else
                 if Text.Contains(referencia, "LETERMOVIR") then "LETERMOVIR" else
                 if Text.Contains(referencia, "LETROZOL") then "LETROZOL" else
-                if Text.Contains(referencia, "LEUPRORRELINA ACETATO") then "LEUPRORRELINA ACETATO" else
+                if Text.Contains(referencia, "LEUPRORRELINA ACETATO") or Text.Contains(referencia, "ACETATO DE LEUPRORRELINA") then "LEUPRORRELINA ACETATO" else
                 if Text.Contains(referencia, "LEVAMALATO DE CABOZANTINIBE") or Text.Contains(referencia,"CABONIZANTINIBE") or Text.Contains(referencia,"CABONIZANTINIB") then "LEVAMALATO DE CABOZANTINIBE" else
                 if Text.Contains(referencia, "LEVAMISOL") then "LEVAMISOL" else
                 if Text.Contains(referencia, "LEVANLODIPINO BESILATO") then "LEVANLODIPINO BESILATO" else
@@ -368,7 +370,7 @@ let
                 if Text.Contains(referencia, "LIPEGFILGRASTIM") then "LIPEGFILGRASTIM" else
                 if Text.Contains(referencia, "LIRAGLUTIDA") or Text.Contains(referencia, "VICTOZA") or Text.Contains(referencia, "VICTOSA") then "LIRAGLUTIDA" else
                 if Text.Contains(referencia, "LISADO BACTERIANO") then "LISADO BACTERIANO" else
-                if Text.Contains(referencia, "LISDEXANFETAMINA DIMESILATO") or Text.Contains(referencia, "VENVANSE") or Text.Contains(referencia, "LISDEXANFETAMINA") then "LISDEXANFETAMINA DIMESILATO" else
+                if Text.Contains(referencia, "LISDEXANFETAMINA DIMESILATO") or Text.Contains(referencia, "VENVANSE")  or Text.Contains(referencia, "VENVASE")  or Text.Contains(referencia, "VYVANSE") or Text.Contains(referencia, "LISDEXANFETAMINA") then "LISDEXANFETAMINA" else
                 if Text.Contains(referencia, "LISINA") then "LISINA" else
                 if Text.Contains(referencia, "LISINA CLONIXINATO") then "LISINA CLONIXINATO" else
                 if Text.Contains(referencia, "LISINOPRIL") then "LISINOPRIL" else
@@ -400,6 +402,7 @@ let
                 if Text.Contains(referencia, "MAGALDRATO") then "MAGALDRATO" else
                 if Text.Contains(referencia, "MANIDIPINO") then "MANIDIPINO" else
                 if Text.Contains(referencia, "MANITOL") then "MANITOL" else
+                if Text.Contains(referencia, "MARALIXIBAT") then "MARALIXIBAT" else
                 if Text.Contains(referencia, "MARAVIROQUE") then "MARAVIROQUE" else
                 if Text.Contains(referencia, "MARIBAVIR") then "MARIBAVIR" else
                 if Text.Contains(referencia, "MAVACANTENO") then "MAVACANTENO" else
@@ -420,7 +423,7 @@ let
                 if Text.Contains(referencia, "MENTOL") then "MENTOL" else
                 if Text.Contains(referencia, "MEPARTRICINA") then "MEPARTRICINA" else
                 if Text.Contains(referencia, "MEPIVACAINA CLORIDRATO") then "MEPIVACAINA CLORIDRATO" else
-                if Text.Contains(referencia, "MEPOLIZUMABE") then "MEPOLIZUMABE" else
+                if Text.Contains(referencia, "MEPOLIZUMABE") or Text.Contains(referencia, "MEPOLIZUMAB") then "MEPOLIZUMABE" else
                 if Text.Contains(referencia, "MERCAPTAMINA") or Text.Contains(referencia, "CISTEAMINA") or Text.Contains(referencia, "CYSTAGON") or Text.Contains(referencia, "PROCYSBI") then "MERCAPTAMINA" else
                 if Text.Contains(referencia, "MERCAPTOPURINA") then "MERCAPTOPURINA" else
                 if Text.Contains(referencia, "MEROPENEM") then "MEROPENEM" else
@@ -434,9 +437,10 @@ let
                 if Text.Contains(referencia, "METILCELULOSE") then "METILCELULOSE" else
                 if Text.Contains(referencia, "METILDOPA") then "METILDOPA" else
                 if Text.Contains(referencia, "METILERGOMETRINA MALEATO") then "METILERGOMETRINA MALEATO" else
-                if Text.Contains(referencia, "METILFENIDATO CLORIDRATO") or Text.Contains(referencia, "CONSERTA") or Text.Contains(referencia, "CONCERTA") or Text.Contains(referencia, "METILFENIDATO") or Text.Contains(referencia, "RITALINA") then "METILFENIDATO CLORIDRATO" else
+                if Text.Contains(referencia, "METILFENIDATO CLORIDRATO") or Text.Contains(referencia, "CONSERTA") or Text.Contains(referencia, "CONCERTA") or Text.Contains(referencia, "METILFENIDATO") or Text.Contains(referencia, "CLORIDRATO DE METILFENIDATO") or Text.Contains(referencia, "ACETATO DE METILFENIDATO") or Text.Contains(referencia, "RITALINA") then "METILFENIDATO" else
                 if Text.Contains(referencia, "METILPREDNISOLONA") then "METILPREDNISOLONA" else
                 if Text.Contains(referencia, "METILTIONINIO CLORETO") then "METILTIONINIO CLORETO" else
+                if Text.Contains(referencia, "METIMAZOL") or Text.Contains(referencia, "TAPAZOL") then "METIMAZOL" else
                 if Text.Contains(referencia, "METIONINA") then "METIONINA" else
                 if Text.Contains(referencia, "METIPRANOLOL") then "METIPRANOLOL" else
                 if Text.Contains(referencia, "METOCLOPRAMIDA CLORIDRATO") then "METOCLOPRAMIDA CLORIDRATO" else
